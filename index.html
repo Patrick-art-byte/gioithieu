@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu về trang web</title>
+    <style>
+        body {
+            font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana , "sans-serif";
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0px;
+        }
+        header {
+            background: #49ada8;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            }
+        nav {
+            margin: 10px 10px;
+            }
+        nav a {
+            margin: 0 35px;
+            color: white;
+            text-decoration: none;
+              }
+        main {
+            padding: 20px 0;
+			margin-left: 15px
+        }
+        resources {
+            margin: 20px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #808080;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+		}
+		input[type="text"] {
+            padding: 10px;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+		}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BG.Doctors</h1>
+        <nav>
+            <a href="" ><b>Trang Chủ</b> &nbsp;&nbsp;</a>
+            <a href="" ><b>Bệnh Viện</b> &nbsp;&nbsp;</a>
+            <a href="#"><b>Phòng Khám</b> &nbsp;&nbsp;</a>
+            <a href="#"><b>Giới Thiệu</b> &nbsp;&nbsp;</a>
+        </nav>
+		<form action="/search" method="GET">
+    <input type="text" name="query" placeholder="Search..." required>
+    <input type="submit" value="Search">
+</form>
+    </header>
+    <main>
+		<div>
+			<h1>&nbsp;&nbsp; Lời giới thiệu:<br>
+			</h1>
+	    </div>
+		<p style="font-size: 20px"><b>&nbsp;&nbsp;&nbsp;-Chào mừng bạn đến với trang web BG.DOCTORS được thiết kế bởi tập thể A10K78 THPT Ngô Sĩ Liên. Với sứ mệnh mang lại sự tiện lợi, an tâm, dễ dàng thao tác cho người dùng, chúng tôi đã xây dựng một nền tảng dự thi ngày hội chuyển đổi số giúp bạn dễ dàng tìm kiếm bác sĩ, phòng khám và bệnh viện gần nhất, cũng như cập nhật các thông tin y khoa hữu ích.<br>
+		&nbsp;&nbsp;&nbsp;-Trang web chúng tôi cung cấp :
+&nbsp;<li>Danh sách các bác sĩ, bệnh viện, phòng khám: Giúp bạn tìm kiếm nhanh chóng được bác sĩ chuyên khoa hoặc bệnh viện gần nơi bạn sinh sống</li>
+&nbsp;<li>Thông tin liên hệ: Giúp người dùng dễ dàng liên hệ khi họ cần hoặc có câu hỏi thắc mắc</li>
+&nbsp;<li>Công cụ tìm kiếm dễ sử dụng chỉ với vài thao tác bạn có thể tra cứu thông tin về bác sĩ phòng khám bệnh viện và hẹn lịch khám</li>
+</b></p>
+        <div class="resources">
+            <h3>Một số tổ chức,trung tâm hỗ trợ Y tế trên thế giới:</h3>
+            <ul>
+                <li><a href="https://www.who.int" target="_blank">Tổ Chức Y Tế Thế Giới (WHO)</a></li>
+                <li><a href="https://www.cdc.gov" target="_blank">Trung Tâm Kiểm Soát và Phòng Ngừa Dịch Bệnh (CDC)</a></li>
+                <li><a href="https://www.moh.gov.vn" target="_blank">Bộ Y Tế Việt Nam</a></li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+      <p>&copy; 2024 Trang Web Y Tế A10K78</p>
+    </footer>
+</body>
+</html>
